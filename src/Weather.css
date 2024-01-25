@@ -1,0 +1,181 @@
+.form-search {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.form-input {
+  background-color: rgb(197, 219, 205);
+  border: 1px solid rgb(197, 219, 205);
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  margin: 1px;
+  padding: 10px 80px 10px 15px;
+}
+
+::placeholder {
+  color: rgb(128, 128, 128);
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.form-button {
+  background-color: rgb(197, 219, 205);
+  border: 1px solid rgb(197, 219, 205);
+  border-radius: 12px;
+  color: rgb(33, 59, 44);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  margin: 10px;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.city-date-time {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.city-date-time h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.temperature-container {
+  display: flex;
+}
+
+.city-date-time h2 {
+  color: rgb(197, 219, 205);
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+
+.temperature-container span {
+  color: rgb(197, 219, 205);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.temperature-container a {
+  color: rgb(255, 255, 255);
+}
+
+.temperature-container a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.list-date {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.list-date li {
+  text-transform: capitalize;
+}
+
+.weather-conditions {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 0px;
+  text-align: center;
+  width: 90%;
+}
+
+.weather-conditions img {
+  margin: 20px;
+  width: 150px;
+}
+
+.list-weather-conditions {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+}
+
+li span {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.date {
+  padding: 1px 0px;
+}
+
+.date-update,
+.date-description {
+  padding: 10px 0px;
+}
+
+.date-description {
+  color: rgb(197, 219, 205);
+}
+@media (max-width: 600px) {
+  .form-input {
+    font-size: 1rem;
+    padding: 10px 50px 10px 10px;
+  }
+
+  .form-button,
+  .temperature-container span {
+    font-size: 1rem;
+  }
+
+  .city-date-time h1 {
+    font-size: 1.1rem;
+  }
+
+  .city-date-time h2 {
+    font-size: 3.2rem;
+  }
+
+  .weather-conditions {
+    width: 80%;
+  }
+
+  .weather-conditions img {
+    margin: 10px;
+    width: 100px;
+  }
+
+  .list-weather-conditions {
+    margin: 10px;
+  }
+
+  .list-date li,
+  .weather-conditions li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .form-input,
+  .form-button {
+    font-size: 0.8rem;
+    margin: 5px;
+    padding: 10px 15px;
+  }
+}

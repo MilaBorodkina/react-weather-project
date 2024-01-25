@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  display: block;
+  margin: 50px auto;
+  max-width: 50%;
+}
+
+.app-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("./img/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 5px;
+  text-align: center;
+}
+
+footer a,
+footer a:visited {
+  color: rgb(126, 190, 161);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 2150px) {
+  .App {
+    max-width: 35%;
+  }
+}
+@media (max-width: 1400px) {
+  .App {
+    max-width: 40%;
+  }
+}
+@media (max-width: 1200px) {
+  .App {
+    max-width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .App {
+    max-width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .App {
+    max-width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .App {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./img/forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .App {
+    background-image: none;
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  .app-container {
+    border-radius: 0px;
+    padding: 50px 0px 150px;
+  }
+
+  .app-container div {
+    padding: 1px 0px;
+  }
+}
