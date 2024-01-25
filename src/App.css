@@ -4,7 +4,7 @@ body {
 
 .App {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   max-width: 50%;
 }
 
@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 12px;
   color: rgb(255, 255, 255);
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 footer {
@@ -23,7 +23,7 @@ footer {
   border-radius: 12px;
   margin: 20px auto;
   padding: 10px;
-  width: 90%;
+  width: 92%;
 }
 
 footer p {

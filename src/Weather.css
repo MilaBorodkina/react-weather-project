@@ -1,3 +1,8 @@
+li {
+  font-size: 1.1rem;
+  letter-spacing: 0.03rem;
+}
+
 .form-search {
   display: block;
   margin: 20px auto;
@@ -50,28 +55,28 @@
 }
 
 .city-date-time h1 {
-  font-size: 1.4rem;
+  font-size: 35px;
+  letter-spacing: 0.08rem;
+  margin: 15px;
+}
+
+.city-date-time h2 {
+  color: rgb(197, 219, 205);
+  font-size: 4rem;
+  font-weight: 400;
   margin: 0;
-  margin-top: 10px;
+  position: relative;
 }
 
 .temperature-container {
   display: flex;
 }
 
-.city-date-time h2 {
-  color: rgb(197, 219, 205);
-  font-size: 3.8rem;
-  font-weight: 400;
-  margin: 0;
-  position: relative;
-}
-
 .temperature-container span {
   color: rgb(197, 219, 205);
   font-size: 1.2rem;
   font-weight: 500;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .temperature-container a {
@@ -83,10 +88,11 @@
 }
 
 .list-date {
+  text-align: center;
   list-style-type: none;
+  margin-top: 5px;
   margin-bottom: 10px;
   padding: 0;
-  text-align: center;
 }
 
 .list-date li {
@@ -99,10 +105,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px auto;
+  margin: 10px auto 30px;
   padding: 0px;
   text-align: center;
-  width: 90%;
+  width: 95%;
 }
 
 .weather-conditions img {
@@ -114,6 +120,10 @@
   list-style-type: none;
   margin: 30px;
   padding: 0;
+}
+
+.list-weather-conditions li {
+  margin: 20px;
 }
 
 li span {

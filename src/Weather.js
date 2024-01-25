@@ -20,10 +20,8 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
       city: response.data.city,
-      // icon: response.data.condition.icon,
     });
     setIcon(response.data.condition.icon);
-    // setReady(true);
   }
 
   function handleSubmit(event) {
