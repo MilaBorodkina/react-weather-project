@@ -12,11 +12,11 @@
   font-weight: 500;
   letter-spacing: 0.05rem;
   margin: 1px;
-  padding: 10px 80px 10px 15px;
+  padding: 10px 10px 10px 80px;
 }
 
 ::placeholder {
-  color: rgb(128, 128, 128);
+  color: rgb(146, 146, 146);
 }
 
 .form-input:focus {
@@ -133,6 +133,14 @@ li span {
 .date-description {
   color: rgb(197, 219, 205);
 }
+
+@media (min-width: 1800px) {
+  .form-input {
+    font-size: 1rem;
+    padding: 10px 30px 10px 140px;
+  }
+}
+
 @media (max-width: 600px) {
   .form-input {
     font-size: 1rem;
